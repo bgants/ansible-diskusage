@@ -1,0 +1,5 @@
+---
+- hosts: smoke-cluster
+  remote_user: centos
+  roles:
+    - smoke

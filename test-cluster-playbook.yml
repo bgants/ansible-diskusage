@@ -1,0 +1,5 @@
+---
+- hosts: test-cluster
+  remote_user: centos
+  roles:
+    - test

@@ -1,0 +1,5 @@
+---
+# vars file for systatroles
+mountpoints:
+  - name: smoke_cluster
+    mountpoint: "/dev/sda2"

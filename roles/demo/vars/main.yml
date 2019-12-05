@@ -1,0 +1,5 @@
+---
+# vars file for systatroles
+mountpoints:
+  - name: demo_cluster
+    mountpoint: "/dev/vda"

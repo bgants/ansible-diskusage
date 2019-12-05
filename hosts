@@ -1,0 +1,14 @@
+[localhost]
+127.0.0.1
+
+[dev-box]
+<some set of IPs to add here>
+
+[demo-cluster]
+<some set of IPs to add here>
+
+[test-cluster]
+<some set of IPs to add here>
+
+[smoke-cluster]
+<some set of IPs to add here>

@@ -1,0 +1,9 @@
+---
+# tasks file for systatroles
+- name: disk info space for test cluster 
+  shell: df -kh {{item}}
+  register: df_ouput
+  with_items: "{{  mountpoints | selectattr('name', 'equalto', 'test_cluster') | map(attribute='mountpoint') | list }}" 
+
+- debug:
+    var: df_ouput.results[0].stdout_lines
