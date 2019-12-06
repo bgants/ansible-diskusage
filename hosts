@@ -12,3 +12,6 @@
 
 [smoke-cluster]
 <some set of IPs to add here>
+
+[build-server]
+<some set of IPs to add here>
