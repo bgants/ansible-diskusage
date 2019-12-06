@@ -1,0 +1,20 @@
+---
+- hosts: smoke-cluster
+  remote_user: centos
+  roles:
+    - smoke
+
+- hosts: test-cluster
+  remote_user: centos
+  roles:
+    - test
+
+- hosts: demo-cluster
+  remote_user: centos
+  roles:
+    - demo
+
+- hosts: build-server
+  remote_user: centos
+  roles:
+    - buildServer

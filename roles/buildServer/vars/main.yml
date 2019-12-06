@@ -1,0 +1,5 @@
+---
+# vars file for systatroles
+mountpoints:
+  - name: build_server 
+    mountpoint: "/dev/mapper/ssd-docker"

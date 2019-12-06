@@ -1,5 +1,0 @@
----
-- hosts: demo-cluster
-  remote_user: centos
-  roles:
-    - demo
